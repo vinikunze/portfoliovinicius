@@ -153,6 +153,8 @@ async function siteInfo(page) {
       headings: [...document.querySelectorAll('h1,h2,h3')].map((h) => h.innerText.trim()).filter(Boolean).slice(0, 30),
       cidades: cities.filter((c) => txt.includes(c)),
       parked: /domain (is )?for sale|domínio (está )?à venda|parked|this domain|hostgator.*(em construção|coming soon)|site em construção|index of \//i.test(txt.slice(0, 3000)),
+      // página curta do tipo "em breve": está no ar, mas ainda não é o site
+      emBreve: txt.length < 900 && /em breve|a caminho|em construção|coming soon|novidades por aqui/i.test(txt),
       textLength: txt.length,
     };
   }).catch(() => ({}));
@@ -197,9 +199,10 @@ async function captureProject(browser, p) {
   // Desktop
   const d = await open(browser, DESKTOP, target(p.url));
   info.site = { status: d.status, error: d.error, finalUrl: d.finalUrl, ...(d.ok ? await siteInfo(d.page) : {}) };
-  if (!d.ok || info.site.parked) {
+  if (!d.ok || info.site.parked || info.site.emBreve) {
     await d.context.close();
-    return { online: false, motivo: d.error || (info.site.parked ? 'Página de domínio estacionado ou em construção' : `HTTP ${d.status}`), info };
+    const motivo = d.error || (info.site.parked ? 'Página de domínio estacionado' : info.site.emBreve ? 'No ar só uma página "em breve", o site completo ainda não foi publicado' : `HTTP ${d.status}`);
+    return { online: false, motivo, info };
   }
   const rawDesk = path.join(TMP, `${p.slug}-desktop.png`);
   await d.page.screenshot({ path: rawDesk, animations: 'allow' });

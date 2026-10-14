@@ -787,18 +787,21 @@ main { counter-reset: sec; }
 .stage .phone { position: absolute; right: 0; bottom: 0; width: 28%; }
 .stage__tag {
   position: absolute;
-  right: 3%;
-  bottom: 66%;
+  right: 30%;
+  bottom: 3%;
   z-index: 3;
-  padding: 7px 12px;
+  padding: 6px 11px;
   border-radius: 999px;
   background: var(--gold-grad);
   color: #15110b;
-  font-size: 0.7rem;
+  font-size: 0.64rem;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.8);
+}
+@media (min-width: 960px) {
+  .stage__tag { right: 3%; bottom: 66%; font-size: 0.7rem; padding: 7px 12px; }
 }
 .feat__meta {
   display: flex;
@@ -848,6 +851,7 @@ main { counter-reset: sec; }
 }
 @media (min-width: 960px) {
   .feat { grid-template-columns: 1.25fr 0.75fr; gap: 70px; }
+  .feat:nth-child(even) { grid-template-columns: 0.75fr 1.25fr; }
   .feat:nth-child(even) .feat__media { order: 2; }
   .feat__info { max-width: 460px; }
 }
@@ -1042,7 +1046,7 @@ main { counter-reset: sec; }
   font-size: 0.97rem;
 }
 .ai-note svg { flex: none; width: 26px; height: 26px; color: var(--gold); }
-.ai-note a { color: var(--gold-light); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--line-strong); }
+.ai-note a { display: inline-block; padding: 4px 0; color: var(--gold-light); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--line-strong); }
 
 /* ---------- Como funciona ---------- */
 .steps { position: relative; display: grid; gap: 0; }

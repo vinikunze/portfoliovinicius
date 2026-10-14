@@ -271,7 +271,7 @@
         "Contato direto pelo WhatsApp"
       ],
       "video": "",
-      "online": true,
+      "online": false,
       "verificadoEm": "2026-10-14T21:48:11.290Z",
       "prints": {
         "atualizadoEm": "2026-10-14T21:48:11.290Z",
@@ -293,7 +293,8 @@
           "w": 600,
           "h": 1329
         }
-      }
+      },
+      "motivoOffline": "No ar só uma página \"em breve\", o site completo ainda não foi publicado"
     },
     {
       "slug": "tornearia-cascavel",
