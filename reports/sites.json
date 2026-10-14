@@ -4,7 +4,7 @@
     "url": "https://egaosushi.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-14T21:46:23.577Z",
+    "verificadoEm": "2026-10-14T21:52:17.084Z",
     "site": {
       "status": 200,
       "error": "",
@@ -40,6 +40,7 @@
         "Sorriso"
       ],
       "parked": false,
+      "emBreve": false,
       "textLength": 3965
     },
     "celular": {
@@ -55,6 +56,7 @@
       ],
       "cidades": [],
       "parked": false,
+      "emBreve": false,
       "textLength": 709
     }
   },
@@ -63,7 +65,7 @@
     "url": "https://dragabrielaveigantt.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-14T21:46:41.502Z",
+    "verificadoEm": "2026-10-14T21:52:35.715Z",
     "site": {
       "status": 200,
       "error": "",
@@ -92,6 +94,7 @@
         "Sorriso"
       ],
       "parked": false,
+      "emBreve": false,
       "textLength": 1715
     }
   },
@@ -100,7 +103,7 @@
     "url": "https://venturesautocenter.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-14T21:46:58.816Z",
+    "verificadoEm": "2026-10-14T21:52:53.895Z",
     "site": {
       "status": 200,
       "error": "",
@@ -124,6 +127,7 @@
         "Sinop"
       ],
       "parked": false,
+      "emBreve": false,
       "textLength": 2548
     }
   },
@@ -132,7 +136,7 @@
     "url": "https://betaoautocenter.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-14T21:47:33.210Z",
+    "verificadoEm": "2026-10-14T21:53:29.523Z",
     "site": {
       "status": 200,
       "error": "",
@@ -160,6 +164,7 @@
         "Sinop"
       ],
       "parked": false,
+      "emBreve": false,
       "textLength": 5503
     }
   },
@@ -168,7 +173,7 @@
     "url": "https://betaopneussinop.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-14T21:47:58.043Z",
+    "verificadoEm": "2026-10-14T21:53:49.636Z",
     "site": {
       "status": 200,
       "error": "",
@@ -186,6 +191,7 @@
         "Sinop"
       ],
       "parked": false,
+      "emBreve": false,
       "textLength": 2452
     }
   },
@@ -194,7 +200,7 @@
     "url": "https://lojamatrinpesca.com.br",
     "online": false,
     "motivo": "HTTP 500",
-    "verificadoEm": "2026-10-14T21:47:58.684Z",
+    "verificadoEm": "2026-10-14T21:53:50.185Z",
     "site": {
       "status": 500,
       "error": "",
@@ -204,9 +210,9 @@
   "cooperafs": {
     "nome": "COOPERAFS",
     "url": "https://cooperafs.com.br",
-    "online": true,
-    "motivo": "",
-    "verificadoEm": "2026-10-14T21:48:11.290Z",
+    "online": false,
+    "motivo": "No ar só uma página \"em breve\", o site completo ainda não foi publicado",
+    "verificadoEm": "2026-10-14T21:53:54.971Z",
     "site": {
       "status": 200,
       "error": "",
@@ -218,6 +224,7 @@
       ],
       "cidades": [],
       "parked": false,
+      "emBreve": true,
       "textLength": 300
     }
   },
@@ -226,7 +233,7 @@
     "url": "https://vinikunze.github.io/tornearia-cascavel/",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-14T21:48:28.345Z",
+    "verificadoEm": "2026-10-14T21:54:11.266Z",
     "site": {
       "status": 200,
       "error": "",
@@ -257,6 +264,7 @@
         "Sinop"
       ],
       "parked": false,
+      "emBreve": false,
       "textLength": 3760
     }
   }
