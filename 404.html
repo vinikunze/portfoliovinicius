@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página não encontrada | Vinicius.</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/portfoliovinicius/assets/brand/favicon.svg" type="image/svg+xml">
+  <style>
+    html,body{margin:0;height:100%;background:#0a0908;color:#e9e0cf;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+    main{min-height:100%;display:grid;place-items:center;text-align:center;padding:24px}
+    h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(2.4rem,9vw,4.5rem);margin:0;color:#f4ecdd}
+    h1 b{color:#d6b27a;font-weight:400}
+    p{color:#b3a994;margin:14px 0 28px}
+    a{display:inline-block;padding:16px 28px;border-radius:999px;background:linear-gradient(135deg,#f6e6c8,#d6b27a 55%,#b48d55);color:#15110b;font-weight:600;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main>
+    <div>
+      <h1>Página não encontrada<b>.</b></h1>
+      <p>O endereço mudou ou não existe mais.</p>
+      <a href="./" id="home">Ver o portfólio</a>
+    </div>
+  </main>
+  <script>
+    // funciona tanto em vinikunze.github.io/portfoliovinicius quanto em domínio próprio
+    var h = document.getElementById('home');
+    h.href = location.pathname.indexOf('/portfoliovinicius/') === 0 ? '/portfoliovinicius/' : '/';
+  </script>
+</body>
+</html>

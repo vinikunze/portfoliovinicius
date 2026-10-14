@@ -1,0 +1,285 @@
+{
+  "categorias": [
+    "Restaurantes",
+    "Saúde",
+    "Automotivo",
+    "Indústria e Comércio",
+    "Institucional"
+  ],
+  "projetos": [
+    {
+      "slug": "egao-sushi",
+      "nome": "Egao Sushi",
+      "artigo": "do",
+      "cidade": "Sorriso, MT",
+      "categoria": "Restaurantes",
+      "segmento": "Restaurante japonês",
+      "tipo": "Site completo + sistema de pedidos",
+      "url": "https://egaosushi.com.br",
+      "destaque": true,
+      "destaques": [
+        "Páginas de rodízio e cardápio, galeria de fotos e mapa",
+        "Sistema de pedidos próprio: o pedido chega pronto no WhatsApp",
+        "Zero comissão de aplicativo de delivery"
+      ],
+      "urlCelular": "https://pedido.egaosushi.com.br",
+      "rotuloCelular": "Sistema de pedidos",
+      "linksExtras": [
+        {
+          "rotulo": "Ver sistema de pedidos",
+          "url": "https://pedido.egaosushi.com.br"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "slug": "dra-gabriela-veigantt",
+      "nome": "Dra. Gabriela Veigantt",
+      "artigo": "da",
+      "cidade": "Sinop, MT",
+      "categoria": "Saúde",
+      "segmento": "Cirurgiã-dentista",
+      "tipo": "Site institucional",
+      "url": "https://dragabrielaveigantt.com.br",
+      "destaque": true,
+      "destaques": [
+        "Plantão de urgência 24h em destaque logo no topo",
+        "Agendamento de avaliação direto pelo WhatsApp",
+        "Especialidades, depoimentos e mapa de localização"
+      ],
+      "video": ""
+    },
+    {
+      "slug": "abs-blocos",
+      "nome": "ABS Blocos",
+      "artigo": "da",
+      "cidade": "Sinop, MT",
+      "categoria": "Indústria e Comércio",
+      "segmento": "Fábrica de blocos e pavers",
+      "tipo": "Site multipáginas",
+      "url": "",
+      "pendente": "URL não informada",
+      "destaque": true,
+      "destaques": [
+        "Várias páginas, uma para cada linha de produto",
+        "Calculadora de materiais para a obra",
+        "Animações premium em todo o site"
+      ],
+      "video": ""
+    },
+    {
+      "slug": "ventures-auto-center",
+      "nome": "Ventures Auto Center",
+      "artigo": "da",
+      "cidade": "Sinop, MT",
+      "categoria": "Automotivo",
+      "segmento": "Auto center",
+      "tipo": "Site institucional",
+      "url": "https://venturesautocenter.com.br",
+      "destaque": false,
+      "destaques": [
+        "Serviços de suspensão, freios, alinhamento e balanceamento",
+        "Agendamento de revisão pelo WhatsApp",
+        "Rota no GPS com um toque"
+      ],
+      "video": ""
+    },
+    {
+      "slug": "betao-auto-center",
+      "nome": "Betão Auto Center",
+      "artigo": "do",
+      "cidade": "Sinop, MT",
+      "categoria": "Automotivo",
+      "segmento": "Oficina mecânica",
+      "tipo": "Site institucional",
+      "url": "https://betaoautocenter.com.br",
+      "destaque": false,
+      "destaques": [
+        "Agendamento de troca de óleo e serviços pelo WhatsApp",
+        "Passo a passo do atendimento e diferenciais",
+        "Perguntas frequentes e localização"
+      ],
+      "video": ""
+    },
+    {
+      "slug": "betao-pneus",
+      "nome": "Betão Pneus",
+      "artigo": "do",
+      "cidade": "Sinop, MT",
+      "categoria": "Automotivo",
+      "segmento": "Pneus e alinhamento",
+      "tipo": "Landing page de campanha",
+      "url": "https://betaopneussinop.com.br",
+      "destaque": false,
+      "destaques": [
+        "Oferta clara logo na primeira tela",
+        "Pedido de orçamento que cai direto no WhatsApp",
+        "Feita para campanhas no Google Ads"
+      ],
+      "video": ""
+    },
+    {
+      "slug": "matrin-pesca",
+      "nome": "Matrin Pesca e Aventura",
+      "artigo": "da",
+      "cidade": "",
+      "categoria": "Indústria e Comércio",
+      "segmento": "Loja de pesca",
+      "tipo": "Site de loja",
+      "url": "https://lojamatrinpesca.com.br",
+      "destaque": false,
+      "destaques": [
+        "Vitrine de produtos para pesca e aventura",
+        "Atendimento rápido pelo WhatsApp",
+        "Visual pensado para o celular"
+      ],
+      "video": ""
+    },
+    {
+      "slug": "cooperafs",
+      "nome": "COOPERAFS",
+      "artigo": "da",
+      "cidade": "",
+      "categoria": "Institucional",
+      "segmento": "Cooperativa de agricultura familiar",
+      "tipo": "Site institucional",
+      "url": "https://cooperafs.com.br",
+      "destaque": false,
+      "destaques": [
+        "Apresentação da cooperativa e dos produtores",
+        "Produtos da agricultura familiar",
+        "Contato direto pelo WhatsApp"
+      ],
+      "video": ""
+    },
+    {
+      "slug": "tornearia-cascavel",
+      "nome": "Tornearia Cascavel",
+      "artigo": "da",
+      "cidade": "Sinop, MT",
+      "categoria": "Indústria e Comércio",
+      "segmento": "Tornearia e usinagem",
+      "tipo": "Site institucional",
+      "url": "https://vinikunze.github.io/tornearia-cascavel/",
+      "destaque": false,
+      "destaques": [
+        "Usinagem, torno, solda e prensa de mangueira",
+        "Processo explicado em 4 passos",
+        "Orçamento rápido pelo WhatsApp"
+      ],
+      "video": ""
+    },
+    {
+      "slug": "sorrisocare",
+      "nome": "SorrisoCare",
+      "artigo": "da",
+      "cidade": "Sorriso, MT",
+      "categoria": "Saúde",
+      "segmento": "Assistência domiciliar",
+      "tipo": "Site institucional",
+      "url": "",
+      "pendente": "URL não informada",
+      "destaque": false,
+      "destaques": [],
+      "video": ""
+    },
+    {
+      "slug": "ms-manutencao",
+      "nome": "MS Manutenção",
+      "artigo": "da",
+      "cidade": "",
+      "categoria": "Indústria e Comércio",
+      "segmento": "",
+      "tipo": "Site institucional",
+      "url": "",
+      "pendente": "URL não informada",
+      "destaque": false,
+      "destaques": [],
+      "video": ""
+    },
+    {
+      "slug": "luz-creator",
+      "nome": "Luz Creator",
+      "artigo": "da",
+      "cidade": "",
+      "categoria": "Institucional",
+      "segmento": "",
+      "tipo": "Site institucional",
+      "url": "",
+      "pendente": "URL não informada",
+      "destaque": false,
+      "destaques": [],
+      "video": ""
+    },
+    {
+      "slug": "clinica-implantare",
+      "nome": "Clínica Implantare",
+      "artigo": "da",
+      "cidade": "",
+      "categoria": "Saúde",
+      "segmento": "Clínica odontológica",
+      "tipo": "Site institucional",
+      "url": "",
+      "pendente": "URL não informada",
+      "destaque": false,
+      "destaques": [],
+      "video": ""
+    },
+    {
+      "slug": "apoio-locacoes",
+      "nome": "Apoio Locações",
+      "artigo": "da",
+      "cidade": "",
+      "categoria": "Indústria e Comércio",
+      "segmento": "",
+      "tipo": "Site institucional",
+      "url": "",
+      "pendente": "URL não informada",
+      "destaque": false,
+      "destaques": [],
+      "video": ""
+    },
+    {
+      "slug": "priscila-camargo",
+      "nome": "Priscila Camargo",
+      "artigo": "da",
+      "cidade": "",
+      "categoria": "Institucional",
+      "segmento": "",
+      "tipo": "Site institucional",
+      "url": "",
+      "pendente": "URL não informada",
+      "destaque": false,
+      "destaques": [],
+      "video": ""
+    },
+    {
+      "slug": "portal-seg",
+      "nome": "Portal Seg",
+      "artigo": "do",
+      "cidade": "",
+      "categoria": "Institucional",
+      "segmento": "",
+      "tipo": "Site institucional",
+      "url": "",
+      "pendente": "URL não informada",
+      "destaque": false,
+      "destaques": [],
+      "video": ""
+    },
+    {
+      "slug": "equity360",
+      "nome": "Equity360",
+      "artigo": "da",
+      "cidade": "",
+      "categoria": "Institucional",
+      "segmento": "",
+      "tipo": "Site institucional",
+      "url": "",
+      "pendente": "URL não informada",
+      "destaque": false,
+      "destaques": [],
+      "video": ""
+    }
+  ]
+}

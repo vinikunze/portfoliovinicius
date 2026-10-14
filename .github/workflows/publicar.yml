@@ -1,0 +1,174 @@
+name: Publicar portfólio
+
+# Roda a cada push:
+#  1. tira os prints de novo quando projects.json, a logo, os vídeos ou os scripts mudam
+#  2. publica no GitHub Pages (só a partir do branch padrão)
+#  3. verifica a página publicada (celular e desktop, links, WhatsApp) e roda o Lighthouse
+# Também dá para rodar na mão em Actions > Publicar portfólio > Run workflow.
+
+on:
+  push:
+    paths-ignore:
+      - 'reports/**'
+      - 'README.md'
+  workflow_dispatch:
+    inputs:
+      prints:
+        description: 'Tirar os prints de todos os sites de novo'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publicar-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  prints:
+    name: Prints dos sites
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Precisa tirar prints?
+        id: need
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=${{ inputs.prints }}" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          if git diff --name-only "$BEFORE" "${{ github.sha }}" | grep -qE '^(projects\.json|scripts/|assets/brand/logo\.|assets/videos/|package(-lock)?\.json)'; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.need.outputs.run == 'true'
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependências
+        if: steps.need.outputs.run == 'true'
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Tirar prints
+        if: steps.need.outputs.run == 'true'
+        run: npm run prints
+
+      - name: Salvar prints no repositório
+        if: steps.need.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A projects.json assets reports/sites.json
+          if git diff --cached --quiet; then echo "Nada mudou"; exit 0; fi
+          git commit -m "Atualiza prints dos projetos"
+          for i in 1 2 3; do
+            git pull --rebase origin "${{ github.ref_name }}" && git push origin "HEAD:${{ github.ref_name }}" && break
+            sleep 5
+          done
+
+  deploy:
+    name: Publicar no GitHub Pages
+    needs: prints
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Montar a pasta do site
+        run: |
+          mkdir _site
+          cp -r index.html 404.html config.js projects.json site.webmanifest robots.txt sitemap.xml assets _site/
+          rm -rf _site/assets/videos/README.md
+          DOMAIN="$(head -n1 CNAME 2>/dev/null | tr -d ' \r\n')"
+          if [ -n "$DOMAIN" ] && [ "$DOMAIN" != "www.seudominio.com.br" ]; then
+            echo "Usando domínio próprio: $DOMAIN"
+            cp CNAME _site/
+            grep -rl 'https://vinikunze.github.io/portfoliovinicius/' _site --include='*.html' --include='*.xml' --include='*.txt' \
+              | xargs -r sed -i "s#https://vinikunze.github.io/portfoliovinicius/#https://$DOMAIN/#g"
+            sed -i 's#/portfoliovinicius/#/#g' _site/404.html
+          fi
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  verificar:
+    name: Verificar página publicada
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependências
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Esperar o GitHub Pages atualizar
+        run: sleep 30
+
+      - name: Verificar celular, desktop e links
+        id: verify
+        continue-on-error: true
+        run: npm run verify -- "${{ needs.deploy.outputs.url }}"
+
+      - name: Lighthouse
+        continue-on-error: true
+        run: |
+          URL="${{ needs.deploy.outputs.url }}?utm_source=instagram&utm_medium=bio"
+          mkdir -p reports/lighthouse
+          rm -f reports/lighthouse/*
+          npx --yes lighthouse@13.5.0 "$URL" --quiet --chrome-flags="--headless=new --no-sandbox" \
+            --output=json --output=html --output-path=reports/lighthouse/celular
+          npx --yes lighthouse@13.5.0 "$URL" --quiet --preset=desktop --chrome-flags="--headless=new --no-sandbox" \
+            --output=json --output=html --output-path=reports/lighthouse/desktop
+          node scripts/lighthouse-resumo.mjs
+
+      - name: Salvar relatório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -f reports/lighthouse/*.report.json
+          git add -A reports
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Relatório de verificação da página publicada"
+          for i in 1 2 3; do
+            git pull --rebase origin "${{ github.ref_name }}" && git push origin "HEAD:${{ github.ref_name }}" && break
+            sleep 5
+          done

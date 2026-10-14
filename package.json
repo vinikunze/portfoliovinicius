@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-vinicius",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio e link da bio de Vinicius. Sites Premium & Web IA. Sinop, MT.",
+  "type": "module",
+  "scripts": {
+    "prints": "node scripts/prints.mjs",
+    "icons": "node scripts/icons.mjs",
+    "og": "node scripts/og.mjs",
+    "serve": "node scripts/serve.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "sharp": "0.35.4"
+  }
+}
