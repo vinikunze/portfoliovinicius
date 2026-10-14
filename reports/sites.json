@@ -1,0 +1,263 @@
+{
+  "egao-sushi": {
+    "nome": "Egao Sushi",
+    "url": "https://egaosushi.com.br",
+    "online": true,
+    "motivo": "",
+    "verificadoEm": "2026-10-14T21:46:23.577Z",
+    "site": {
+      "status": 200,
+      "error": "",
+      "finalUrl": "https://egaosushi.com.br/",
+      "title": "Egao Sushi | Culinária Japonesa em Sorriso - MT",
+      "description": "Rodízio, à la carte e delivery de culinária japonesa em Sorriso - MT. Sabor, acolhimento e bons momentos para compartilhar.",
+      "headings": [
+        "Uma experiência\npara todos os sentidos.",
+        "Rodízio",
+        "À la carte",
+        "Delivery",
+        "Ambiente",
+        "Egaosignifica\nsorriso.",
+        "Rodízio\nEgao",
+        "Sabores para todos os paladares.",
+        "Escolhapelo\ndesejo.",
+        "Combinados",
+        "Sushi & sashimi",
+        "Hot roll",
+        "Pratos especiais",
+        "Pratos quentes",
+        "Drinks",
+        "Uma noite\nno Egao.",
+        "Tradiçãonogesto.\nEmoçãonosabor.",
+        "Bonsmomentosmerecem\numlugarespecial.",
+        "Aniversários",
+        "Confraternizações",
+        "Jantares especiais",
+        "Osaborchega\natévocê.",
+        "Esperamosporvocê."
+      ],
+      "cidades": [
+        "Sorriso"
+      ],
+      "parked": false,
+      "textLength": 3965
+    },
+    "celular": {
+      "status": 200,
+      "title": "Egao Sushi — Pedidos",
+      "description": "",
+      "headings": [
+        "COZINHA",
+        "SUSHI BAR",
+        "SOBREMESAS",
+        "BEBIDAS",
+        "Entradas"
+      ],
+      "cidades": [],
+      "parked": false,
+      "textLength": 709
+    }
+  },
+  "dra-gabriela-veigantt": {
+    "nome": "Dra. Gabriela Veigantt",
+    "url": "https://dragabrielaveigantt.com.br",
+    "online": true,
+    "motivo": "",
+    "verificadoEm": "2026-10-14T21:46:41.502Z",
+    "site": {
+      "status": 200,
+      "error": "",
+      "finalUrl": "https://dragabrielaveigantt.com.br/",
+      "title": "Dra. Gabriela Veigantt | Cirurgiã-Dentista - Urgência 24h Sinop",
+      "description": "",
+      "headings": [
+        "Plantão de Urgência 24 Horas",
+        "Sua saúde bucal em primeiro lugar",
+        "Cirurgiã-Dentista | Estética e Saúde Bucal Completa",
+        "Sobre a Dra. Gabriela",
+        "Especialidades",
+        "Canal",
+        "Implantes",
+        "Limpeza",
+        "Restauração",
+        "Clareamento",
+        "Lentes",
+        "Harmonização Orofacial",
+        "Sorrisos Transformados",
+        "Acompanhe no Instagram",
+        "Contato e Localização"
+      ],
+      "cidades": [
+        "Sinop",
+        "Sorriso"
+      ],
+      "parked": false,
+      "textLength": 1715
+    }
+  },
+  "ventures-auto-center": {
+    "nome": "Ventures Auto Center",
+    "url": "https://venturesautocenter.com.br",
+    "online": true,
+    "motivo": "",
+    "verificadoEm": "2026-10-14T21:46:58.816Z",
+    "site": {
+      "status": 200,
+      "error": "",
+      "finalUrl": "https://venturesautocenter.com.br/",
+      "title": "Ventures Auto Center | Alta Performance em Sinop - MT",
+      "description": "Especialistas em Troca de Óleo, Pneus, Freios, Suspensão, Alinhamento e Balanceamento em Sinop, Mato Grosso. Agende sua revisão.",
+      "headings": [
+        "PERFORMANCE E SEGURANÇA PARA O SEU VEÍCULO",
+        "SOBRE NÓS",
+        "NOSSAS ESPECIALIDADES",
+        "TROCA DE ÓLEO",
+        "PNEUS",
+        "FREIOS",
+        "SUSPENSÃO",
+        "ALINHAMENTO",
+        "BALANCEAMENTO",
+        "COMO CHEGAR",
+        "VENTURES AUTO CENTER"
+      ],
+      "cidades": [
+        "Sinop"
+      ],
+      "parked": false,
+      "textLength": 2548
+    }
+  },
+  "betao-auto-center": {
+    "nome": "Betão Auto Center",
+    "url": "https://betaoautocenter.com.br",
+    "online": true,
+    "motivo": "",
+    "verificadoEm": "2026-10-14T21:47:33.210Z",
+    "site": {
+      "status": 200,
+      "error": "",
+      "finalUrl": "https://betaoautocenter.com.br/",
+      "title": "Betão Auto Center | Oficina Mecânica Premium em Sinop MT",
+      "description": "Betão Auto Center em Sinop MT. Especialistas em suspensão, freios, motores, alinhamento 3D e pneus. Agende seu serviço via WhatsApp.",
+      "headings": [
+        "Especialistas em\nManutenção Automotiva",
+        "Troca de óleo completa em até 4x sem juros",
+        "O QUE FAZEMOS",
+        "Nossos Serviços",
+        "PASSO A PASSO",
+        "Como Funciona",
+        "NOSSOS DIFERENCIAIS",
+        "Por que escolher a Betão Auto Center?",
+        "A OFICINA",
+        "Tradição e Inovação em Sinop",
+        "TIRE SUAS DÚVIDAS",
+        "Perguntas Frequentes",
+        "VISITE-NOS",
+        "Contato e Localização",
+        "Seu carro em boas mãos."
+      ],
+      "cidades": [
+        "Sinop"
+      ],
+      "parked": false,
+      "textLength": 5503
+    }
+  },
+  "betao-pneus": {
+    "nome": "Betão Pneus",
+    "url": "https://betaopneussinop.com.br",
+    "online": true,
+    "motivo": "",
+    "verificadoEm": "2026-10-14T21:47:58.043Z",
+    "site": {
+      "status": 200,
+      "error": "",
+      "finalUrl": "https://betaopneussinop.com.br/",
+      "title": "Pneus + Alinhamento 3D em Sinop MT | Betão Auto Center",
+      "description": "Pneus nacionais e importados em Sinop/MT. Montagem e bicos novos grátis na compra. Alinhamento 3D e balanceamento. Orçamento pelo WhatsApp.",
+      "headings": [
+        "Pneus novos com montagem grátis e o melhor preço de Sinop.",
+        "Tudo certo!",
+        "Pneus nacionais e importados com montagem grátis",
+        "Perguntas frequentes",
+        "Bora deixar seu carro no ponto?"
+      ],
+      "cidades": [
+        "Sinop"
+      ],
+      "parked": false,
+      "textLength": 2452
+    }
+  },
+  "matrin-pesca": {
+    "nome": "Matrin Pesca e Aventura",
+    "url": "https://lojamatrinpesca.com.br",
+    "online": false,
+    "motivo": "HTTP 500",
+    "verificadoEm": "2026-10-14T21:47:58.684Z",
+    "site": {
+      "status": 500,
+      "error": "",
+      "finalUrl": "https://lojamatrinpesca.com.br/"
+    }
+  },
+  "cooperafs": {
+    "nome": "COOPERAFS",
+    "url": "https://cooperafs.com.br",
+    "online": true,
+    "motivo": "",
+    "verificadoEm": "2026-10-14T21:48:11.290Z",
+    "site": {
+      "status": 200,
+      "error": "",
+      "finalUrl": "https://cooperafs.com.br/",
+      "title": "cooperafs.com.br",
+      "description": "",
+      "headings": [
+        "É a família COOPERAFS\nproduzindo para sua família!"
+      ],
+      "cidades": [],
+      "parked": false,
+      "textLength": 300
+    }
+  },
+  "tornearia-cascavel": {
+    "nome": "Tornearia Cascavel",
+    "url": "https://vinikunze.github.io/tornearia-cascavel/",
+    "online": true,
+    "motivo": "",
+    "verificadoEm": "2026-10-14T21:48:28.345Z",
+    "site": {
+      "status": 200,
+      "error": "",
+      "finalUrl": "https://vinikunze.github.io/tornearia-cascavel/",
+      "title": "Tornearia Cascavel — Usinagem, Torno, Solda e Prensa de Mangueira em Sinop-MT",
+      "description": "Tornearia Cascavel em Sinop-MT. Usinagem de precisão, torno mecânico, solda e prensa de mangueira hidráulica. Desde 2014 fabricando e recuperando peças com precisão. Peça seu orçamento no WhatsApp.",
+      "headings": [
+        "PRECISÃO QUE FAZ A\nPEÇA CERTA GIRAR.",
+        "Oficina de precisão, mão de quem entende de metal.",
+        "Tudo que envolve metal, a gente resolve.",
+        "TORNO MECÂNICO",
+        "SOLDA",
+        "PRENSA DE MANGUEIRA",
+        "O motivo de quem volta sempre.",
+        "PRECISÃO REAL",
+        "AGILIDADE",
+        "CONFIANÇA",
+        "ESTRUTURA COMPLETA",
+        "Do problema à peça pronta, em 4 passos.",
+        "VOCÊ CHAMA",
+        "ORÇAMENTO",
+        "EXECUÇÃO",
+        "ENTREGA",
+        "Tem uma peça pra fazer ou recuperar? Fala com a gente agora.",
+        "Venha tomar um café e resolver."
+      ],
+      "cidades": [
+        "Sinop"
+      ],
+      "parked": false,
+      "textLength": 3760
+    }
+  }
+}

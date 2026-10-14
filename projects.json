@@ -30,7 +30,30 @@
           "url": "https://pedido.egaosushi.com.br"
         }
       ],
-      "video": ""
+      "video": "",
+      "online": true,
+      "verificadoEm": "2026-10-14T21:46:23.577Z",
+      "prints": {
+        "atualizadoEm": "2026-10-14T21:46:23.577Z",
+        "desktop": {
+          "src": "assets/prints/egao-sushi/desktop-1600.webp",
+          "srcset": "assets/prints/egao-sushi/desktop-640.webp 640w, assets/prints/egao-sushi/desktop-1024.webp 1024w, assets/prints/egao-sushi/desktop-1600.webp 1600w",
+          "w": 1600,
+          "h": 1000
+        },
+        "mobile": {
+          "src": "assets/prints/egao-sushi/mobile-780.webp",
+          "srcset": "assets/prints/egao-sushi/mobile-390.webp 390w, assets/prints/egao-sushi/mobile-780.webp 780w",
+          "w": 780,
+          "h": 1688
+        },
+        "mobileFull": {
+          "src": "assets/prints/egao-sushi/mobile-full-600.webp",
+          "srcset": "assets/prints/egao-sushi/mobile-full-390.webp 390w, assets/prints/egao-sushi/mobile-full-600.webp 600w",
+          "w": 600,
+          "h": 2935
+        }
+      }
     },
     {
       "slug": "dra-gabriela-veigantt",
@@ -47,7 +70,30 @@
         "Agendamento de avaliação direto pelo WhatsApp",
         "Especialidades, depoimentos e mapa de localização"
       ],
-      "video": ""
+      "video": "",
+      "online": true,
+      "verificadoEm": "2026-10-14T21:46:41.502Z",
+      "prints": {
+        "atualizadoEm": "2026-10-14T21:46:41.502Z",
+        "desktop": {
+          "src": "assets/prints/dra-gabriela-veigantt/desktop-1600.webp",
+          "srcset": "assets/prints/dra-gabriela-veigantt/desktop-640.webp 640w, assets/prints/dra-gabriela-veigantt/desktop-1024.webp 1024w, assets/prints/dra-gabriela-veigantt/desktop-1600.webp 1600w",
+          "w": 1600,
+          "h": 1000
+        },
+        "mobile": {
+          "src": "assets/prints/dra-gabriela-veigantt/mobile-780.webp",
+          "srcset": "assets/prints/dra-gabriela-veigantt/mobile-390.webp 390w, assets/prints/dra-gabriela-veigantt/mobile-780.webp 780w",
+          "w": 780,
+          "h": 1688
+        },
+        "mobileFull": {
+          "src": "assets/prints/dra-gabriela-veigantt/mobile-full-600.webp",
+          "srcset": "assets/prints/dra-gabriela-veigantt/mobile-full-390.webp 390w, assets/prints/dra-gabriela-veigantt/mobile-full-600.webp 600w",
+          "w": 600,
+          "h": 9231
+        }
+      }
     },
     {
       "slug": "abs-blocos",
@@ -65,7 +111,9 @@
         "Calculadora de materiais para a obra",
         "Animações premium em todo o site"
       ],
-      "video": ""
+      "video": "",
+      "online": false,
+      "motivoOffline": "URL não informada"
     },
     {
       "slug": "ventures-auto-center",
@@ -82,7 +130,30 @@
         "Agendamento de revisão pelo WhatsApp",
         "Rota no GPS com um toque"
       ],
-      "video": ""
+      "video": "",
+      "online": true,
+      "verificadoEm": "2026-10-14T21:46:58.816Z",
+      "prints": {
+        "atualizadoEm": "2026-10-14T21:46:58.816Z",
+        "desktop": {
+          "src": "assets/prints/ventures-auto-center/desktop-1600.webp",
+          "srcset": "assets/prints/ventures-auto-center/desktop-640.webp 640w, assets/prints/ventures-auto-center/desktop-1024.webp 1024w, assets/prints/ventures-auto-center/desktop-1600.webp 1600w",
+          "w": 1600,
+          "h": 1000
+        },
+        "mobile": {
+          "src": "assets/prints/ventures-auto-center/mobile-780.webp",
+          "srcset": "assets/prints/ventures-auto-center/mobile-390.webp 390w, assets/prints/ventures-auto-center/mobile-780.webp 780w",
+          "w": 780,
+          "h": 1688
+        },
+        "mobileFull": {
+          "src": "assets/prints/ventures-auto-center/mobile-full-600.webp",
+          "srcset": "assets/prints/ventures-auto-center/mobile-full-390.webp 390w, assets/prints/ventures-auto-center/mobile-full-600.webp 600w",
+          "w": 600,
+          "h": 9231
+        }
+      }
     },
     {
       "slug": "betao-auto-center",
@@ -99,7 +170,30 @@
         "Passo a passo do atendimento e diferenciais",
         "Perguntas frequentes e localização"
       ],
-      "video": ""
+      "video": "",
+      "online": true,
+      "verificadoEm": "2026-10-14T21:47:33.210Z",
+      "prints": {
+        "atualizadoEm": "2026-10-14T21:47:33.210Z",
+        "desktop": {
+          "src": "assets/prints/betao-auto-center/desktop-1600.webp",
+          "srcset": "assets/prints/betao-auto-center/desktop-640.webp 640w, assets/prints/betao-auto-center/desktop-1024.webp 1024w, assets/prints/betao-auto-center/desktop-1600.webp 1600w",
+          "w": 1600,
+          "h": 1000
+        },
+        "mobile": {
+          "src": "assets/prints/betao-auto-center/mobile-780.webp",
+          "srcset": "assets/prints/betao-auto-center/mobile-390.webp 390w, assets/prints/betao-auto-center/mobile-780.webp 780w",
+          "w": 780,
+          "h": 1688
+        },
+        "mobileFull": {
+          "src": "assets/prints/betao-auto-center/mobile-full-600.webp",
+          "srcset": "assets/prints/betao-auto-center/mobile-full-390.webp 390w, assets/prints/betao-auto-center/mobile-full-600.webp 600w",
+          "w": 600,
+          "h": 9231
+        }
+      }
     },
     {
       "slug": "betao-pneus",
@@ -116,7 +210,30 @@
         "Pedido de orçamento que cai direto no WhatsApp",
         "Feita para campanhas no Google Ads"
       ],
-      "video": ""
+      "video": "",
+      "online": true,
+      "verificadoEm": "2026-10-14T21:47:58.043Z",
+      "prints": {
+        "atualizadoEm": "2026-10-14T21:47:58.043Z",
+        "desktop": {
+          "src": "assets/prints/betao-pneus/desktop-1600.webp",
+          "srcset": "assets/prints/betao-pneus/desktop-640.webp 640w, assets/prints/betao-pneus/desktop-1024.webp 1024w, assets/prints/betao-pneus/desktop-1600.webp 1600w",
+          "w": 1600,
+          "h": 1000
+        },
+        "mobile": {
+          "src": "assets/prints/betao-pneus/mobile-780.webp",
+          "srcset": "assets/prints/betao-pneus/mobile-390.webp 390w, assets/prints/betao-pneus/mobile-780.webp 780w",
+          "w": 780,
+          "h": 1688
+        },
+        "mobileFull": {
+          "src": "assets/prints/betao-pneus/mobile-full-600.webp",
+          "srcset": "assets/prints/betao-pneus/mobile-full-390.webp 390w, assets/prints/betao-pneus/mobile-full-600.webp 600w",
+          "w": 600,
+          "h": 7789
+        }
+      }
     },
     {
       "slug": "matrin-pesca",
@@ -133,7 +250,10 @@
         "Atendimento rápido pelo WhatsApp",
         "Visual pensado para o celular"
       ],
-      "video": ""
+      "video": "",
+      "online": false,
+      "verificadoEm": "2026-10-14T21:47:58.684Z",
+      "motivoOffline": "HTTP 500"
     },
     {
       "slug": "cooperafs",
@@ -150,7 +270,30 @@
         "Produtos da agricultura familiar",
         "Contato direto pelo WhatsApp"
       ],
-      "video": ""
+      "video": "",
+      "online": true,
+      "verificadoEm": "2026-10-14T21:48:11.290Z",
+      "prints": {
+        "atualizadoEm": "2026-10-14T21:48:11.290Z",
+        "desktop": {
+          "src": "assets/prints/cooperafs/desktop-1600.webp",
+          "srcset": "assets/prints/cooperafs/desktop-640.webp 640w, assets/prints/cooperafs/desktop-1024.webp 1024w, assets/prints/cooperafs/desktop-1600.webp 1600w",
+          "w": 1600,
+          "h": 1000
+        },
+        "mobile": {
+          "src": "assets/prints/cooperafs/mobile-780.webp",
+          "srcset": "assets/prints/cooperafs/mobile-390.webp 390w, assets/prints/cooperafs/mobile-780.webp 780w",
+          "w": 780,
+          "h": 1688
+        },
+        "mobileFull": {
+          "src": "assets/prints/cooperafs/mobile-full-600.webp",
+          "srcset": "assets/prints/cooperafs/mobile-full-390.webp 390w, assets/prints/cooperafs/mobile-full-600.webp 600w",
+          "w": 600,
+          "h": 1329
+        }
+      }
     },
     {
       "slug": "tornearia-cascavel",
@@ -167,7 +310,30 @@
         "Processo explicado em 4 passos",
         "Orçamento rápido pelo WhatsApp"
       ],
-      "video": ""
+      "video": "",
+      "online": true,
+      "verificadoEm": "2026-10-14T21:48:28.345Z",
+      "prints": {
+        "atualizadoEm": "2026-10-14T21:48:28.345Z",
+        "desktop": {
+          "src": "assets/prints/tornearia-cascavel/desktop-1600.webp",
+          "srcset": "assets/prints/tornearia-cascavel/desktop-640.webp 640w, assets/prints/tornearia-cascavel/desktop-1024.webp 1024w, assets/prints/tornearia-cascavel/desktop-1600.webp 1600w",
+          "w": 1600,
+          "h": 1000
+        },
+        "mobile": {
+          "src": "assets/prints/tornearia-cascavel/mobile-780.webp",
+          "srcset": "assets/prints/tornearia-cascavel/mobile-390.webp 390w, assets/prints/tornearia-cascavel/mobile-780.webp 780w",
+          "w": 780,
+          "h": 1688
+        },
+        "mobileFull": {
+          "src": "assets/prints/tornearia-cascavel/mobile-full-600.webp",
+          "srcset": "assets/prints/tornearia-cascavel/mobile-full-390.webp 390w, assets/prints/tornearia-cascavel/mobile-full-600.webp 600w",
+          "w": 600,
+          "h": 9231
+        }
+      }
     },
     {
       "slug": "sorrisocare",
@@ -181,7 +347,9 @@
       "pendente": "URL não informada",
       "destaque": false,
       "destaques": [],
-      "video": ""
+      "video": "",
+      "online": false,
+      "motivoOffline": "URL não informada"
     },
     {
       "slug": "ms-manutencao",
@@ -195,7 +363,9 @@
       "pendente": "URL não informada",
       "destaque": false,
       "destaques": [],
-      "video": ""
+      "video": "",
+      "online": false,
+      "motivoOffline": "URL não informada"
     },
     {
       "slug": "luz-creator",
@@ -209,7 +379,9 @@
       "pendente": "URL não informada",
       "destaque": false,
       "destaques": [],
-      "video": ""
+      "video": "",
+      "online": false,
+      "motivoOffline": "URL não informada"
     },
     {
       "slug": "clinica-implantare",
@@ -223,7 +395,9 @@
       "pendente": "URL não informada",
       "destaque": false,
       "destaques": [],
-      "video": ""
+      "video": "",
+      "online": false,
+      "motivoOffline": "URL não informada"
     },
     {
       "slug": "apoio-locacoes",
@@ -237,7 +411,9 @@
       "pendente": "URL não informada",
       "destaque": false,
       "destaques": [],
-      "video": ""
+      "video": "",
+      "online": false,
+      "motivoOffline": "URL não informada"
     },
     {
       "slug": "priscila-camargo",
@@ -251,7 +427,9 @@
       "pendente": "URL não informada",
       "destaque": false,
       "destaques": [],
-      "video": ""
+      "video": "",
+      "online": false,
+      "motivoOffline": "URL não informada"
     },
     {
       "slug": "portal-seg",
@@ -265,7 +443,9 @@
       "pendente": "URL não informada",
       "destaque": false,
       "destaques": [],
-      "video": ""
+      "video": "",
+      "online": false,
+      "motivoOffline": "URL não informada"
     },
     {
       "slug": "equity360",
@@ -279,7 +459,9 @@
       "pendente": "URL não informada",
       "destaque": false,
       "destaques": [],
-      "video": ""
+      "video": "",
+      "online": false,
+      "motivoOffline": "URL não informada"
     }
   ]
 }
