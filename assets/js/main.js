@@ -231,6 +231,18 @@ function renderHeroStage(featured) {
   });
 }
 
+// mini celulares na primeira tela do celular: mostra trabalho real em 3 segundos
+function renderPeek(list) {
+  const box = $('[data-peek-phones]');
+  if (!box || isDesktop.matches) return;
+  const withPrint = list.filter((p) => p.prints?.mobile);
+  if (!withPrint.length) { $('[data-peek]').hidden = true; return; }
+  const pick = withPrint.slice(0, 3);
+  // o do meio é o primeiro destaque
+  const order = pick.length === 3 ? [pick[1], pick[0], pick[2]] : pick;
+  box.innerHTML = order.map((p) => phone(p, { full: false, sizes: '86px' }).replace('loading="lazy"', 'loading="eager"')).join('');
+}
+
 function renderMarquee(list) {
   const m = $('[data-marquee]');
   if (!m || !list.length) return;
@@ -390,6 +402,7 @@ async function init() {
     renderGrid(featured.length ? rest : live.slice(2), data.categorias || []);
     renderVideos(live);
     renderMarquee(live);
+    renderPeek([...featured, ...rest]);
 
     const count = $('[data-count]');
     if (count && live.length) count.innerHTML = `<b>${live.length}</b> projetos no ar`;
@@ -405,6 +418,8 @@ async function init() {
     }
   } catch (e) {
     console.warn(e);
+    const pk = $('[data-peek]');
+    if (pk) pk.hidden = true;
     $('[data-featured]').innerHTML = `<p class="lead">Não consegui carregar os projetos agora. <a class="link-arrow" href="${waLink()}" target="_blank" rel="noopener">Me chama no WhatsApp</a> que eu te mando os links.</p>`;
   }
 
