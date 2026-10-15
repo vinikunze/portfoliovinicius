@@ -1,6 +1,6 @@
 {
   "url": "https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio",
-  "data": "2026-10-15T11:21:21.871Z",
+  "data": "2026-10-15T23:29:22.493Z",
   "problemas": [],
   "links": [
     {
@@ -43,6 +43,18 @@
       "href": "https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio#processo",
       "raw": "#processo",
       "text": "Como funciona",
+      "target": "",
+      "rel": "",
+      "track": "",
+      "projeto": "",
+      "hidden": false,
+      "anchorOk": true,
+      "status": "âncora ok"
+    },
+    {
+      "href": "https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio#duvidas",
+      "raw": "#duvidas",
+      "text": "Dúvidas",
       "target": "",
       "rel": "",
       "track": "",

@@ -1,7 +1,7 @@
 # Verificação do portfólio
 
 Página: https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio
-Data: 2026-10-15T11:21:21.871Z
+Data: 2026-10-15T23:29:22.493Z
 
 ## Nenhum problema encontrado
 
@@ -13,6 +13,7 @@ Data: 2026-10-15T11:21:21.871Z
 | Vinicius. | https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio#inicio | âncora ok |
 | Serviços | https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio#servicos | âncora ok |
 | Como funciona | https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio#processo | âncora ok |
+| Dúvidas | https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio#duvidas | âncora ok |
 | Quero um site | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20um%20site%20pro%20meu%20neg%C3%B3cio. | 200 |
 | Instagram | https://www.instagram.com/ | escondido (sem configuração) |
 | Ver site no ar | https://egaosushi.com.br/ | 200 |
