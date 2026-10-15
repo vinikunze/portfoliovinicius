@@ -9,10 +9,12 @@
     "icons": "node scripts/icons.mjs",
     "og": "node scripts/og.mjs",
     "serve": "node scripts/serve.mjs",
-    "verify": "node scripts/verify.mjs"
+    "verify": "node scripts/verify.mjs",
+    "pdf": "node scripts/pdf.mjs"
   },
   "devDependencies": {
     "playwright": "1.63.0",
+    "qrcode": "1.5.4",
     "sharp": "0.35.4"
   }
 }
