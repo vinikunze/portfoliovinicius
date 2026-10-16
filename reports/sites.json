@@ -4,7 +4,7 @@
     "url": "https://egaosushi.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:32:26.994Z",
+    "verificadoEm": "2026-10-16T00:38:37.252Z",
     "site": {
       "status": 200,
       "error": "",
@@ -47,11 +47,17 @@
       "status": 200,
       "title": "Egao Sushi — Pedidos",
       "description": "",
-      "headings": [],
+      "headings": [
+        "COZINHA",
+        "SUSHI BAR",
+        "SOBREMESAS",
+        "BEBIDAS",
+        "Entradas"
+      ],
       "cidades": [],
       "parked": false,
       "emBreve": false,
-      "textLength": 152
+      "textLength": 709
     }
   },
   "dra-gabriela-veigantt": {
@@ -59,7 +65,7 @@
     "url": "https://dragabrielaveigantt.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:32:44.003Z",
+    "verificadoEm": "2026-10-16T00:38:54.062Z",
     "site": {
       "status": 200,
       "error": "",
@@ -97,7 +103,7 @@
     "url": "https://venturesautocenter.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:33:01.514Z",
+    "verificadoEm": "2026-10-16T00:39:11.365Z",
     "site": {
       "status": 200,
       "error": "",
@@ -130,7 +136,7 @@
     "url": "https://betaoautocenter.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:33:36.607Z",
+    "verificadoEm": "2026-10-16T00:39:45.406Z",
     "site": {
       "status": 200,
       "error": "",
@@ -167,7 +173,7 @@
     "url": "https://betaopneussinop.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:33:55.734Z",
+    "verificadoEm": "2026-10-16T00:40:03.460Z",
     "site": {
       "status": 200,
       "error": "",
@@ -194,7 +200,7 @@
     "url": "https://lojamatrinpesca.com.br",
     "online": false,
     "motivo": "HTTP 500",
-    "verificadoEm": "2026-10-16T00:33:56.208Z",
+    "verificadoEm": "2026-10-16T00:40:03.938Z",
     "site": {
       "status": 500,
       "error": "",
@@ -206,7 +212,7 @@
     "url": "https://cooperafs.com.br",
     "online": false,
     "motivo": "No ar só uma página \"em breve\", o site completo ainda não foi publicado",
-    "verificadoEm": "2026-10-16T00:34:01.976Z",
+    "verificadoEm": "2026-10-16T00:40:08.495Z",
     "site": {
       "status": 200,
       "error": "",
@@ -227,7 +233,7 @@
     "url": "https://vinikunze.github.io/tornearia-cascavel/",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:34:17.432Z",
+    "verificadoEm": "2026-10-16T00:40:23.974Z",
     "site": {
       "status": 200,
       "error": "",
@@ -267,7 +273,7 @@
     "url": "https://sorrisocare.com.br/",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:34:40.540Z",
+    "verificadoEm": "2026-10-16T00:40:43.061Z",
     "site": {
       "status": 200,
       "error": "",
