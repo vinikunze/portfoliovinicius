@@ -11,7 +11,7 @@ const esc = (s = '') => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<'
 
 export async function buildOg() {
   const data = JSON.parse(await fs.readFile(path.join(ROOT, 'projects.json'), 'utf8'));
-  const live = data.projetos.filter((p) => p.url && p.online !== false && p.prints);
+  const live = data.projetos.filter((p) => p.url && p.online !== false && !p.ocultar && p.prints);
   const feat = live.filter((p) => p.destaque).concat(live.filter((p) => !p.destaque));
   const [a, b] = feat;
   const img = (pr) => (pr ? `<img src="../${pr.src}" style="width:100%;height:100%;object-fit:cover;object-position:top">` : '<div class="placeholder"></div>');

@@ -103,7 +103,7 @@ async function main() {
       lista.push(p);
     }
   } else {
-    const live = data.projetos.filter((p) => p.url && p.online !== false && p.prints);
+    const live = data.projetos.filter((p) => p.url && p.online !== false && !p.ocultar && p.prints);
     lista = [...live.filter((p) => p.destaque), ...live.filter((p) => !p.destaque)];
   }
   if (!lista.length) throw new Error('Nenhum projeto com prints para colocar no PDF.');

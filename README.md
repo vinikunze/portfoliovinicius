@@ -46,6 +46,7 @@ Copie um bloco do `projects.json` e ajuste:
 - `linksExtras` (opcional): botões a mais, ex.: `[{"rotulo": "Ver sistema de pedidos", "url": "https://..."}]`.
 - `prints`, `online`, `verificadoEm` são preenchidos automaticamente. Não precisa mexer.
 - Projeto sem `url` ou fora do ar não aparece na página.
+- `"ocultar": true` tira o projeto da página e do PDF sem apagar os dados (ex.: Tornearia Cascavel).
 
 ## Prints automáticos (`npm run prints`)
 

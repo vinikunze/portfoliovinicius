@@ -305,6 +305,7 @@
       "segmento": "Tornearia e usinagem",
       "tipo": "Site institucional",
       "url": "https://vinikunze.github.io/tornearia-cascavel/",
+      "ocultar": true,
       "destaque": false,
       "destaques": [
         "Usinagem, torno, solda e prensa de mangueira",
@@ -344,13 +345,14 @@
       "categoria": "Saúde",
       "segmento": "Assistência domiciliar",
       "tipo": "Site institucional",
-      "url": "",
-      "pendente": "URL não informada",
+      "url": "https://sorrisocare.com.br/",
       "destaque": false,
-      "destaques": [],
-      "video": "",
-      "online": false,
-      "motivoOffline": "URL não informada"
+      "destaques": [
+        "Apresentação dos serviços de cuidado em casa",
+        "Contato direto pelo WhatsApp",
+        "Visual acolhedor pensado para o celular"
+      ],
+      "video": ""
     },
     {
       "slug": "ms-manutencao",

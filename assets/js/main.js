@@ -393,7 +393,7 @@ async function init() {
 
   try {
     const data = await loadProjects();
-    const live = data.projetos.filter((p) => p.url && p.online !== false);
+    const live = data.projetos.filter((p) => p.url && p.online !== false && !p.ocultar);
     const featured = live.filter((p) => p.destaque).slice(0, 3);
     const rest = live.filter((p) => !featured.includes(p));
 
