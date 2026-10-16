@@ -6,25 +6,27 @@ URL: https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_med
 
 | Categoria | Nota |
 |---|---|
-| Desempenho | **95** |
+| Desempenho | **76** |
 | Acessibilidade | **100** |
 | Boas práticas | **100** |
 | SEO | **100** |
 | Agentic Browsing | **100** |
 
-LCP 2.4 s · FCP 1.5 s · TBT 160 ms · CLS 0 · Speed Index 3.1 s
+LCP 2.4 s · FCP 1.5 s · TBT 750 ms · CLS 0 · Speed Index 4.8 s
 
 Itens abaixo de 90:
 
-- Max Potential First Input Delay (200 ms)
-- Minimize main-thread work (2.1 s)
+- Speed Index (4.8 s)
+- Total Blocking Time (750 ms)
+- Max Potential First Input Delay (890 ms)
+- Minimize main-thread work (3.7 s)
 - Reduce unused JavaScript (Est savings of 34 KiB)
-- Use efficient cache lifetimes (Est savings of 402 KiB)
+- Use efficient cache lifetimes (Est savings of 349 KiB)
 - Duplicated JavaScript (Est savings of 1 KiB)
 - Forced reflow
-- Improve image delivery (Est savings of 263 KiB)
+- Improve image delivery (Est savings of 195 KiB)
 - Network dependency tree
-- Render-blocking requests (Est savings of 150 ms)
+- Render-blocking requests
 
 ## desktop (desktop)
 
@@ -38,15 +40,14 @@ URL: https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_med
 | SEO | **100** |
 | Agentic Browsing | **100** |
 
-LCP 0.6 s · FCP 0.4 s · TBT 0 ms · CLS 0 · Speed Index 0.6 s
+LCP 0.4 s · FCP 0.3 s · TBT 0 ms · CLS 0 · Speed Index 0.5 s
 
 Itens abaixo de 90:
 
 - Reduce unused JavaScript (Est savings of 34 KiB)
-- Use efficient cache lifetimes (Est savings of 429 KiB)
+- Use efficient cache lifetimes (Est savings of 394 KiB)
 - Duplicated JavaScript (Est savings of 1 KiB)
-- Forced reflow
-- Improve image delivery (Est savings of 235 KiB)
+- Improve image delivery (Est savings of 196 KiB)
 - Network dependency tree
-- Render-blocking requests (Est savings of 80 ms)
+- Render-blocking requests
 

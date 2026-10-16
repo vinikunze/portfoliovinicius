@@ -1,7 +1,7 @@
 # Verificação do portfólio
 
 Página: https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio
-Data: 2026-10-15T23:39:38.756Z
+Data: 2026-10-16T00:36:49.152Z
 
 ## Nenhum problema encontrado
 
@@ -27,8 +27,8 @@ Data: 2026-10-15T23:39:38.756Z
 | Quero um assim | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20o%20site%20do%20Bet%C3%A3o%20Auto%20Center%20no%20seu%20portf%C3%B3lio%20e%20quero%20um%20assim%20pro%20meu%20neg%C3%B3cio. | 200 |
 | betaopneussinop.com.br | https://betaopneussinop.com.br/ | 200 |
 | Quero um assim | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20o%20site%20do%20Bet%C3%A3o%20Pneus%20no%20seu%20portf%C3%B3lio%20e%20quero%20um%20assim%20pro%20meu%20neg%C3%B3cio. | 200 |
-| vinikunze.github.io/tornearia-cascavel | https://vinikunze.github.io/tornearia-cascavel/ | 200 |
-| Quero um assim | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20o%20site%20da%20Tornearia%20Cascavel%20no%20seu%20portf%C3%B3lio%20e%20quero%20um%20assim%20pro%20meu%20neg%C3%B3cio. | 200 |
+| sorrisocare.com.br | https://sorrisocare.com.br/ | 200 |
+| Quero um assim | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20o%20site%20da%20SorrisoCare%20no%20seu%20portf%C3%B3lio%20e%20quero%20um%20assim%20pro%20meu%20neg%C3%B3cio. | 200 |
 | Quero esse | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20um%20site%20institucional%20pro%20meu%20neg%C3%B3cio. | 200 |
 | Quero essa | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20uma%20landing%20page%20pro%20meu%20neg%C3%B3cio. | 200 |
 | Quero esse | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20um%20sistema%20de%20pedidos%20online%20pro%20meu%20neg%C3%B3cio. | 200 |
