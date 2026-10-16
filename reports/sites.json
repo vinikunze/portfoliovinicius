@@ -4,7 +4,7 @@
     "url": "https://egaosushi.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-15T23:35:43.561Z",
+    "verificadoEm": "2026-10-16T00:32:26.994Z",
     "site": {
       "status": 200,
       "error": "",
@@ -47,17 +47,11 @@
       "status": 200,
       "title": "Egao Sushi — Pedidos",
       "description": "",
-      "headings": [
-        "COZINHA",
-        "SUSHI BAR",
-        "SOBREMESAS",
-        "BEBIDAS",
-        "Entradas"
-      ],
+      "headings": [],
       "cidades": [],
       "parked": false,
       "emBreve": false,
-      "textLength": 709
+      "textLength": 152
     }
   },
   "dra-gabriela-veigantt": {
@@ -65,7 +59,7 @@
     "url": "https://dragabrielaveigantt.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-15T23:36:01.262Z",
+    "verificadoEm": "2026-10-16T00:32:44.003Z",
     "site": {
       "status": 200,
       "error": "",
@@ -103,7 +97,7 @@
     "url": "https://venturesautocenter.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-15T23:36:20.124Z",
+    "verificadoEm": "2026-10-16T00:33:01.514Z",
     "site": {
       "status": 200,
       "error": "",
@@ -136,7 +130,7 @@
     "url": "https://betaoautocenter.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-15T23:36:56.041Z",
+    "verificadoEm": "2026-10-16T00:33:36.607Z",
     "site": {
       "status": 200,
       "error": "",
@@ -173,7 +167,7 @@
     "url": "https://betaopneussinop.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-15T23:37:16.277Z",
+    "verificadoEm": "2026-10-16T00:33:55.734Z",
     "site": {
       "status": 200,
       "error": "",
@@ -200,7 +194,7 @@
     "url": "https://lojamatrinpesca.com.br",
     "online": false,
     "motivo": "HTTP 500",
-    "verificadoEm": "2026-10-15T23:37:17.049Z",
+    "verificadoEm": "2026-10-16T00:33:56.208Z",
     "site": {
       "status": 500,
       "error": "",
@@ -212,7 +206,7 @@
     "url": "https://cooperafs.com.br",
     "online": false,
     "motivo": "No ar só uma página \"em breve\", o site completo ainda não foi publicado",
-    "verificadoEm": "2026-10-15T23:37:22.146Z",
+    "verificadoEm": "2026-10-16T00:34:01.976Z",
     "site": {
       "status": 200,
       "error": "",
@@ -233,7 +227,7 @@
     "url": "https://vinikunze.github.io/tornearia-cascavel/",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-15T23:37:38.274Z",
+    "verificadoEm": "2026-10-16T00:34:17.432Z",
     "site": {
       "status": 200,
       "error": "",
@@ -266,6 +260,51 @@
       "parked": false,
       "emBreve": false,
       "textLength": 3760
+    }
+  },
+  "sorrisocare": {
+    "nome": "SorrisoCare",
+    "url": "https://sorrisocare.com.br/",
+    "online": true,
+    "motivo": "",
+    "verificadoEm": "2026-10-16T00:34:40.540Z",
+    "site": {
+      "status": 200,
+      "error": "",
+      "finalUrl": "https://sorrisocare.com.br/",
+      "title": "sorrisocare.com.br – cuidador de idoso em Sorriso",
+      "description": "Cuidado humanizado e assistência domiciliar em Sorriso - MT. Cuidadores de idosos (diurno, noturno e plantões), acompanhamento hospitalar, babás, limpeza e treinamentos. Fale no WhatsApp.",
+      "headings": [
+        "Cuidando de quem\nvocê ama, com\nsegurança, respeito\ne amor.",
+        "Uma extensão da sua família dentro de casa.",
+        "Serviços pensados para\ncada necessidade.",
+        "Cuidadores de idosos",
+        "Acompanhamento hospitalar",
+        "Atividades da vida diária",
+        "Companhia e convivência",
+        "Babás e cuidadoras infantis",
+        "Serviços domésticos",
+        "Limpeza residencial e premium",
+        "Zeladoria e apoio empresarial",
+        "Treinamento e capacitação",
+        "Simples de começar.\nSeguro de manter.",
+        "Primeiro contato",
+        "Avaliação do perfil",
+        "Profissional selecionado",
+        "Acompanhamento",
+        "Confiança que a família sente já no primeiro dia.",
+        "Uma base sólida por trás\nde cada atendimento.",
+        "Duas mulheres, um mesmo propósito: cuidar bem.",
+        "Perguntas que toda família faz",
+        "Vamos conversar sobre o cuidado que sua família precisa.",
+        "Solicite um orçamento"
+      ],
+      "cidades": [
+        "Sorriso"
+      ],
+      "parked": false,
+      "emBreve": false,
+      "textLength": 7812
     }
   }
 }
