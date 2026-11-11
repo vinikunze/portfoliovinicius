@@ -99,7 +99,7 @@ jobs:
       - name: Montar a pasta do site
         run: |
           mkdir _site
-          cp -r index.html 404.html config.js projects.json site.webmanifest robots.txt sitemap.xml assets _site/
+          cp -r index.html 404.html config.js projects.json site.webmanifest robots.txt sitemap.xml assets saude-estetica _site/
           rm -rf _site/assets/videos/README.md
           DOMAIN="$(head -n1 CNAME 2>/dev/null | tr -d ' \r\n')"
           if [ -n "$DOMAIN" ] && [ "$DOMAIN" != "www.seudominio.com.br" ]; then

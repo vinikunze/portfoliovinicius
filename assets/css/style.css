@@ -1090,6 +1090,7 @@ main { counter-reset: sec; }
 }
 .ai-note svg { flex: none; width: 26px; height: 26px; color: var(--gold); }
 .ai-note a { display: inline-block; padding: 4px 0; color: var(--gold-light); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--line-strong); }
+.ai-note--nicho { margin-top: 12px; }
 
 .svc__ex {
   display: inline-flex;

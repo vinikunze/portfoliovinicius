@@ -76,6 +76,7 @@ Eventos enviados ao `dataLayer`:
 | `clique_whatsapp` | qualquer botão de WhatsApp | `local` (topo, menu, destaque_quero_assim, botao_fixo...), `projeto` |
 | `clique_instagram` | botão do Instagram | `local` |
 | `clique_ver_site` | "Ver site no ar" | `projeto`, `local` |
+| `clique_nicho` | link "Sites para clínicas de saúde e estética" | `local` |
 | `filtro_categoria` | filtro da grade | `categoria` |
 | `play_video` | play em um vídeo | `projeto` |
 
