@@ -47,7 +47,6 @@ a{color:inherit;text-decoration:none}
 ::selection{background:var(--gold);color:#15110B}
 .wrap{width:min(1200px,100% - var(--g)*2);margin-inline:auto}
 .eyebrow{font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;font-weight:600;color:var(--gold);display:inline-flex;align-items:center;gap:12px}
-.eyebrow::before{content:"";width:28px;height:1px;background:linear-gradient(90deg,transparent,currentColor)}
 h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1;letter-spacing:-.015em;color:var(--cream)}
 h2{font-size:clamp(42px,6.4vw,76px)}
 em{font-style:italic;font-weight:400;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.04em}
@@ -148,7 +147,6 @@ html.js .fan:not(.in) .p2{transform:translateX(-50%) translateY(30px)}
 .case-txt{padding:34px 26px 34px;position:relative;z-index:2;background:linear-gradient(180deg,rgba(16,14,11,0),var(--bg2) 28%)}
 .idx{display:flex;align-items:center;gap:12px;font-family:var(--serif);font-size:15px;color:var(--muted2);letter-spacing:.1em;margin-bottom:18px}
 .idx b{font-weight:500;color:var(--gold)}
-.idx::after{content:"";flex:1;max-width:80px;height:1px;background:var(--line2)}
 .meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
 .pill{font-size:12px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
 .pill.g{border-color:var(--line2);color:var(--gold2);background:rgba(214,178,122,.06)}
@@ -201,12 +199,15 @@ html.js .fan:not(.in) .p2{transform:translateX(-50%) translateY(30px)}
 /* sobre */
 .about{position:relative;overflow:hidden;display:grid;gap:30px;background:linear-gradient(180deg,var(--s1),var(--bg2));border:1px solid var(--line);border-radius:32px;padding:38px 26px}
 .about::before{content:"";position:absolute;right:-30%;top:-40%;width:80%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(214,178,122,.12),transparent 65%);pointer-events:none}
-.badge{position:relative;width:132px;height:132px;display:grid;place-items:center}
+.portrait{position:relative;width:min(100%,280px);margin-bottom:22px}
+.portrait>img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;border-radius:26px;box-shadow:0 0 0 1px var(--line2),0 40px 80px -40px rgba(0,0,0,.9);background:var(--s2)}
+.portrait::after{content:"";position:absolute;inset:0 0 auto;height:100%;border-radius:26px;pointer-events:none;background:linear-gradient(180deg,transparent 55%,rgba(10,9,8,.35))}
+.badge{position:absolute;right:-22px;bottom:-22px;z-index:1;width:108px;height:108px;display:grid;place-items:center;border-radius:50%;background:var(--bg);box-shadow:0 0 0 1px var(--line)}
 .badge svg{position:absolute;inset:0;width:100%;height:100%;color:var(--gold)}
 .badge text{font-family:var(--sans);font-size:8.4px;font-weight:600;letter-spacing:3.1px;fill:currentColor}
 @media (prefers-reduced-motion:no-preference){.badge svg{animation:spin 26s linear infinite}}
 @keyframes spin{to{transform:rotate(360deg)}}
-.badge img{width:86px;height:86px;border-radius:50%;box-shadow:0 0 0 1px var(--line2),0 12px 40px -6px rgba(214,178,122,.45)}
+.badge img{width:64px;height:64px;border-radius:50%;box-shadow:0 0 0 1px var(--line2),0 10px 30px -6px rgba(214,178,122,.45)}
 .about h2{margin:16px 0 18px;font-size:clamp(40px,5.4vw,58px)}
 .about p{color:var(--muted);font-size:16.5px;max-width:62ch}
 .about p b{color:var(--cream);font-weight:600}
@@ -272,7 +273,8 @@ html.js .rv.in{opacity:1;transform:none}
   .step{display:block;padding:0}
   .step .n{margin-bottom:28px}
   .step h3{margin-bottom:10px;padding:0}
-  .about{grid-template-columns:auto 1fr;gap:56px;padding:64px;align-items:center}
+  .about{grid-template-columns:auto 1fr;gap:72px;padding:64px;align-items:center}
+  .portrait{width:300px;margin-bottom:0}
   .foot{flex-direction:row;justify-content:space-between}
 }
 </style>
@@ -467,12 +469,15 @@ html.js .rv.in{opacity:1;transform:none}
 <section class="sec" style="padding-top:0">
   <div class="wrap">
     <div class="about rv">
-      <div class="badge">
-        <svg viewBox="0 0 128 128" aria-hidden="true">
-          <defs><path id="ring" d="M64 64m-55 0a55 55 0 1 1 110 0a55 55 0 1 1-110 0"/></defs>
-          <text><textPath href="#ring" textLength="344" lengthAdjust="spacing">SITES PREMIUM ✦ WEB IA ✦ SINOP · MT ✦ </textPath></text>
-        </svg>
-        <img src="../assets/brand/logo-192.webp" srcset="../assets/brand/logo-192.webp 192w, ../assets/brand/logo-384.webp 384w" sizes="86px" width="86" height="86" alt="Logo Vinicius., monograma V dourado" loading="lazy">
+      <div class="portrait">
+        <img src="img/vinicius.jpg" srcset="img/vinicius.jpg 480w, img/vinicius2x.jpg 800w" sizes="280px" width="480" height="600" alt="Vinicius, criador dos sites" loading="lazy">
+        <div class="badge">
+          <svg viewBox="0 0 128 128" aria-hidden="true">
+            <defs><path id="ring" d="M64 64m-55 0a55 55 0 1 1 110 0a55 55 0 1 1-110 0"/></defs>
+            <text><textPath href="#ring" textLength="344" lengthAdjust="spacing">SITES PREMIUM ✦ WEB IA ✦ SINOP · MT ✦ </textPath></text>
+          </svg>
+          <img src="../assets/brand/logo-192.webp" width="64" height="64" alt="Logo Vinicius., monograma V dourado" loading="lazy">
+        </div>
       </div>
       <div>
         <span class="eyebrow">Quem faz</span>
