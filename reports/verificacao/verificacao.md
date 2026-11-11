@@ -1,7 +1,7 @@
 # Verificação do portfólio
 
 Página: https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio
-Data: 2026-10-16T00:42:48.079Z
+Data: 2026-11-11T12:13:14.407Z
 
 ## Nenhum problema encontrado
 
@@ -34,4 +34,5 @@ Data: 2026-10-16T00:42:48.079Z
 | Quero esse | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20um%20sistema%20de%20pedidos%20online%20pro%20meu%20neg%C3%B3cio. | 200 |
 | Quero esse | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20saber%20sobre%20gest%C3%A3o%20de%20Google%20Ads. | 200 |
 | Pergunte como funciona | https://wa.me/5566996369065?text=Oi%20Vinicius!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20saber%20sobre%20solu%C3%A7%C3%B5es%20com%20IA%20pro%20meu%20neg%C3%B3cio. | 200 |
+| Sites para clínicas de saúde e estética | https://vinikunze.github.io/portfoliovinicius/saude-estetica/ | 200 |
 | (66) 99636-9065 | https://wa.me/5566996369065 | 200 |

@@ -1,6 +1,6 @@
 {
   "url": "https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_medium=bio",
-  "data": "2026-10-16T00:42:48.079Z",
+  "data": "2026-11-11T12:13:14.407Z",
   "problemas": [],
   "links": [
     {
@@ -298,6 +298,18 @@
       "target": "_blank",
       "rel": "noopener",
       "track": "clique_whatsapp",
+      "projeto": "",
+      "hidden": false,
+      "anchorOk": null,
+      "status": 200
+    },
+    {
+      "href": "https://vinikunze.github.io/portfoliovinicius/saude-estetica/",
+      "raw": "saude-estetica/",
+      "text": "Sites para clínicas de saúde e estética",
+      "target": "",
+      "rel": "",
+      "track": "clique_nicho",
       "projeto": "",
       "hidden": false,
       "anchorOk": null,

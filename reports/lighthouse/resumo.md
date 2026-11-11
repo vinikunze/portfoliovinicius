@@ -6,22 +6,21 @@ URL: https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_med
 
 | Categoria | Nota |
 |---|---|
-| Desempenho | **93** |
+| Desempenho | **99** |
 | Acessibilidade | **100** |
 | Boas práticas | **100** |
 | SEO | **100** |
 | Agentic Browsing | **100** |
 
-LCP 1.6 s · FCP 1.6 s · TBT 300 ms · CLS 0 · Speed Index 2.3 s
+LCP 1.9 s · FCP 1.3 s · TBT 60 ms · CLS 0 · Speed Index 1.6 s
 
 Itens abaixo de 90:
 
-- Total Blocking Time (300 ms)
-- Max Potential First Input Delay (400 ms)
-- Minimize main-thread work (3.1 s)
+- Max Potential First Input Delay (280 ms)
+- Minimize main-thread work (2.4 s)
 - Reduce unused JavaScript (Est savings of 34 KiB)
 - Use efficient cache lifetimes (Est savings of 402 KiB)
-- Improve image delivery (Est savings of 263 KiB)
+- Improve image delivery (Est savings of 220 KiB)
 - Network dependency tree
 - Render-blocking requests
 
@@ -37,13 +36,12 @@ URL: https://vinikunze.github.io/portfoliovinicius/?utm_source=instagram&utm_med
 | SEO | **100** |
 | Agentic Browsing | **100** |
 
-LCP 0.5 s · FCP 0.3 s · TBT 0 ms · CLS 0 · Speed Index 0.5 s
+LCP 0.4 s · FCP 0.3 s · TBT 0 ms · CLS 0 · Speed Index 0.4 s
 
 Itens abaixo de 90:
 
 - Reduce unused JavaScript (Est savings of 34 KiB)
-- Use efficient cache lifetimes (Est savings of 429 KiB)
-- Forced reflow
+- Use efficient cache lifetimes (Est savings of 430 KiB)
 - Improve image delivery (Est savings of 235 KiB)
 - Network dependency tree
 - Render-blocking requests
