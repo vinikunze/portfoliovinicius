@@ -4,7 +4,7 @@
     "url": "https://egaosushi.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:38:37.252Z",
+    "verificadoEm": "2026-11-11T12:11:41.511Z",
     "site": {
       "status": 200,
       "error": "",
@@ -65,7 +65,7 @@
     "url": "https://dragabrielaveigantt.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:38:54.062Z",
+    "verificadoEm": "2026-11-11T12:11:58.828Z",
     "site": {
       "status": 200,
       "error": "",
@@ -103,7 +103,7 @@
     "url": "https://venturesautocenter.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:39:11.365Z",
+    "verificadoEm": "2026-11-11T12:12:16.018Z",
     "site": {
       "status": 200,
       "error": "",
@@ -136,7 +136,7 @@
     "url": "https://betaoautocenter.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:39:45.406Z",
+    "verificadoEm": "2026-11-11T12:12:48.954Z",
     "site": {
       "status": 200,
       "error": "",
@@ -145,7 +145,8 @@
       "description": "Betão Auto Center em Sinop MT. Especialistas em suspensão, freios, motores, alinhamento 3D e pneus. Agende seu serviço via WhatsApp.",
       "headings": [
         "Especialistas em\nManutenção Automotiva",
-        "Troca de óleo completa em até 4x sem juros",
+        "ORÇAMENTO RÁPIDO",
+        "Conte o que o seu carro precisa",
         "O QUE FAZEMOS",
         "Nossos Serviços",
         "PASSO A PASSO",
@@ -165,7 +166,7 @@
       ],
       "parked": false,
       "emBreve": false,
-      "textLength": 5503
+      "textLength": 5065
     }
   },
   "betao-pneus": {
@@ -173,7 +174,7 @@
     "url": "https://betaopneussinop.com.br",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:40:03.460Z",
+    "verificadoEm": "2026-11-11T12:13:09.034Z",
     "site": {
       "status": 200,
       "error": "",
@@ -198,13 +199,44 @@
   "matrin-pesca": {
     "nome": "Matrin Pesca e Aventura",
     "url": "https://lojamatrinpesca.com.br",
-    "online": false,
-    "motivo": "HTTP 500",
-    "verificadoEm": "2026-10-16T00:40:03.938Z",
+    "online": true,
+    "motivo": "",
+    "verificadoEm": "2026-11-11T12:13:27.252Z",
     "site": {
-      "status": 500,
+      "status": 200,
       "error": "",
-      "finalUrl": "https://lojamatrinpesca.com.br/"
+      "finalUrl": "https://lojamatrinpesca.com.br/",
+      "title": "lojamatrinpesca.com.br",
+      "description": "",
+      "headings": [
+        "Sua pescaria começa aqui",
+        "Uma loja que cresceu junto com a pesca em Sinop",
+        "Tudo organizado do jeito que um pescador pensa",
+        "Iscas Artificiais",
+        "Molinetes",
+        "Carretilhas",
+        "Linhas",
+        "Anzóis e Garatéias",
+        "Acessórios para Pesca",
+        "Camping e Aventura",
+        "Não achou o que procura?",
+        "Linha Shimano em Sinop",
+        "Trabalhamos com quem o pescador já confia",
+        "Atendimento não é só sobre vender",
+        "Gente que pesca",
+        "Pesca responsável",
+        "Variedade com curadoria",
+        "Comunidade",
+        "O que os clientes dizem",
+        "Rua das Tamareiras, 2072",
+        "Seg a sex das 7h15 às 18h, sábado até meio-dia. Sempre tem boa conversa sobre pesca por aqui."
+      ],
+      "cidades": [
+        "Sinop"
+      ],
+      "parked": false,
+      "emBreve": false,
+      "textLength": 6291
     }
   },
   "cooperafs": {
@@ -212,7 +244,7 @@
     "url": "https://cooperafs.com.br",
     "online": false,
     "motivo": "No ar só uma página \"em breve\", o site completo ainda não foi publicado",
-    "verificadoEm": "2026-10-16T00:40:08.495Z",
+    "verificadoEm": "2026-11-11T12:13:32.226Z",
     "site": {
       "status": 200,
       "error": "",
@@ -233,7 +265,7 @@
     "url": "https://vinikunze.github.io/tornearia-cascavel/",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:40:23.974Z",
+    "verificadoEm": "2026-11-11T12:13:48.046Z",
     "site": {
       "status": 200,
       "error": "",
@@ -273,7 +305,7 @@
     "url": "https://sorrisocare.com.br/",
     "online": true,
     "motivo": "",
-    "verificadoEm": "2026-10-16T00:40:43.061Z",
+    "verificadoEm": "2026-11-11T12:14:08.637Z",
     "site": {
       "status": 200,
       "error": "",
